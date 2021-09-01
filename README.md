@@ -1,5 +1,7 @@
 # Calculator
-This calculator, written in Java, allows the user to input an expression in the following forms:
+This calculator, written in C++, is somewhat of a port of a calculator program I originally wrote in Java. However, I am taking a different approach, such as with using the Regex library to analyse the inputted expression instead. So far, it can evaluate an expression of arbitrary length, with a linear 'left to right' order.
+
+The aim of the calculator is to allow the user to input an expression in the following forms:
 * a {operator} b
 * (a {operator} b) {operator} (c {operator} d)
 Where a,b,c,d are operands (numbers) and the operations consist of addition, subtraction, multiplication and division.
@@ -16,11 +18,5 @@ Commands:
 * 'h' - displays the history.
 
 # What I Learnt/Applied
-* Handling ArrayLists in Java.
-* String manipulation.
-* Writing recursive functions.
-* Iterating through ArrayLists.
-* Taking user input using the Scanner class.
-
-# C++ Calculator
-This new project is somewhat of a port of the Java calculator. However, I am taking a different approach, such as with using the Regex library to analyse the inputted expression instead. So far, it can evaluate an expression of arbitrary length, with a linear 'left to right' order.
+* Handling vectors in C++.
+* Regular expressions.
